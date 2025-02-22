@@ -127,6 +127,8 @@ body {
   margin: 0 1rem;
   min-width: 60px;
   display: inline-block;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .date-message {

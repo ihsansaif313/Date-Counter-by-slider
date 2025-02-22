@@ -35,7 +35,7 @@ function DateCounter() {
           <button className="button" onClick={() => setCount((c) => c - step)}>
             -
           </button>
-          <span className="value-display">Count: {count}</span>
+          <input placeholder = {count} value={count} onChange={(s)=>setCount(Number(s.target.value))} className="value-display"></input>
           <button className="button" onClick={() => setCount((c) => c + step)}>
             +
           </button>
